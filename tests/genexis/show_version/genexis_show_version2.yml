@@ -3,7 +3,7 @@ parsed_sample:
   - version: "drgos-hrg1000-1.14.4-R"
     uptime: "2W3D8h51m7s"
     reload_reason: "cold start"
-    bootloader: "drgldr-hrg1000-1.4.1-RC25"
+    # bootloader: "drgldr-hrg1000-1.4.1-RC25"
     bootstrap: "drgboot-hrg1000-1.4.1-RC24"
     hardwarename: "DRG739v2"
     hardwarenum: "99614014"

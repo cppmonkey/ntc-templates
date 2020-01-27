@@ -3,7 +3,7 @@ parsed_sample:
   - version: "drgos-drg700-1.14.4-R"
     uptime: "11W6D11h46m34s"
     reload_reason: "cold start"
-    bootloader: "drgldr-drg700-1.3.1-R"
+    # bootloader: "drgldr-drg700-1.3.1-R"
     bootstrap: "drgboot-drg700-1.1.1-R"
     hardwarename: "DRG719"
     hardwarenum: "FJB625PK"

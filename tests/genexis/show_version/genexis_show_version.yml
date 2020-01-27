@@ -3,7 +3,7 @@ parsed_sample:
   - version: "geneos-lunar-3.8.0-R"
     uptime: "8W4D2h36m58s"
     reload_reason: "unknown"
-    bootloader: "bootloader-lunar-3.2.0-R"
+    # bootloader: "bootloader-lunar-3.2.0-R"
     bootstrap: "bootstrap-lunar-3.2.0-R"
     hardwarename: "DRG7820"
     hardwarenum: "99615010"

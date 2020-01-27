@@ -1,8 +1,8 @@
 Value VERSION (.+?)
 Value UPTIME (.+)
 Value RELOAD_REASON (.+?)
-Value BOOTLOADER (.+?)
-Value BOOTSTRAP (.+?)
+# Value BOOTLOADER ([^\s]+)
+Value BOOTSTRAP ([^\s]+)
 Value HARDWARENAME (.+)
 Value HARDWARENUM (.+)
 Value HARDWAREREV (.+)
@@ -10,11 +10,11 @@ Value SERIAL (.+?)
 Value MAC ([0-9a-fA-F]{2}([0-9a-fA-F]{2}){5})
 
 Start
-  ^GeneOS\s+version:\s+${VERSION}\s*$$
-  ^Uptime\s+is\s+${UPTIME}\s*$$
+  ^(GeneOS|DRGOS)\s+version:\s+${VERSION}\s*$$
+  ^.*[Uu]ptime\s+is\s+${UPTIME}\s*$$
   ^[Ll]ast\s+boot:\s+${RELOAD_REASON}\s*$$
-  ^Bootloader\s+version:\s+${BOOTLOADER}\s*$$
-  ^Bootstrap\s+version:\s+${BOOTSTRAP}\s*$$
+  # ^Bootloader[\s\d]+version:\s${BOOTLOADER}\s[^\n\r]*$$
+  ^Bootstrap\s+version:\s${BOOTSTRAP}.*$$
   ^[Pp]roduct\s+[Nn]ame:\s+${HARDWARENAME}\s*$$
   ^[Pp]roduct\s+[Nn]umber:\s+${HARDWARENUM}\s*$$
   ^[Pp]roduct\s+[Rr]evision:\s+${HARDWAREREV}\s*$$
