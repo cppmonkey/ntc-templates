@@ -1,0 +1,21 @@
+Digital Residential Gateway Operating System (DRGOS)
+Copyright (c) 2009-2017 Genexis B.V. All rights reserved.
+
+DRGOS version: drgos-hrg1000-1.14.4-R
+Compiled: Tue Feb 21 10:24:11 CET 2017
+Source ID: 27cc781ef065a1b4c7a2c8bee3ca4d24551a6aca
+
+drgos uptime is 2W3D8h51m7s
+Last boot: cold start
+
+Bootloader 1 version: drgldr-hrg1000-1.4.1-RC25 (Aug 22 2014 - 11:03:06) - Active
+Bootloader 2 version: drgldr-hrg1000-1.4.1-RC25 (Aug 22 2014 - 11:03:06) - Active
+Bootstrap version: drgboot-hrg1000-1.4.1-RC24 (Jun 25 2014 - 10:39:32)
+
+Product name: DRG739v2
+Product number: 99614014
+Product revision: 3.0
+Product date: 2015-12-23
+Serial number: N.0000000000
+Base MAC address: 000F94000000
+

@@ -1,0 +1,22 @@
+Digital Residential Gateway Operating System (DRGOS)
+Copyright (c) 2009-2017 Genexis B.V. All rights reserved.
+
+DRGOS version: drgos-drg700-1.14.4-R
+Compiled: Tue Feb 21 11:05:56 CET 2017
+Source ID: 27cc781ef065a1b4c7a2c8bee3ca4d24551a6aca
+
+drgos uptime is 11W6D11h46m34s
+Last boot: cold start
+
+Bootloader 1 version: drgldr-drg700-1.1.1-R (Jan 13 2011 - 10:37:11)
+Bootloader 2 version: drgldr-drg700-1.3.1-R (Aug 21 2012 - 17:52:06) - Active
+Bootstrap version: drgboot-drg700-1.1.1-R (Jan 13 2011 - 10:35:47)
+
+Product name: DRG719
+Product number: FJB625PK
+Product revision: 1.0
+Product date: 2011-02-14
+Serial number: T.0000000000
+Base MAC address: 000F5DA00000
+
+
