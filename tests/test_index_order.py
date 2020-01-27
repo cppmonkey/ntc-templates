@@ -88,6 +88,7 @@ def test_index_ordering():
         "extreme",
         "f5_ltm",
         "fortinet_fortios",
+        "genexis",
         "hp_comware",
         "hp_procurve",
         "huawei_vrp",
