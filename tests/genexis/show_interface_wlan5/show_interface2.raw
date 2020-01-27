@@ -1,0 +1,112 @@
+lan       Link encap:Ethernet  HWaddr 34:e3:80:00:00:00  
+          inet addr:192.168.1.254  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::36e3:80ff:ffff:ffff/64 Scope:Link
+          inet6 addr: ffff:ffff:ffff::1/64 Scope:Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:622412 errors:0 dropped:133648 overruns:0 frame:0
+          TX packets:451481 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:63344953 (60.4 MiB)  TX bytes:136619034 (130.2 MiB)
+
+vlan1     Link encap:Ethernet  HWaddr 34:e3:80:00:00:00  
+          inet addr:192.168.15.211  Bcast:192.168.15.255  Mask:255.255.255.128
+          inet6 addr: fe80::36e3:80ff:ffff:ffff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:10368734 errors:0 dropped:26778 overruns:0 frame:0
+          TX packets:281248 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:593811018 (566.3 MiB)  TX bytes:28066701 (26.7 MiB)
+
+wan is administratively up, line protocol is up
+  Duplex auto (full), Speed auto (1000), Flow-control disabled (disabled)
+  23824336 packets input, 18798961727 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    9891510 broadcasts, 40189 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  6500464 packets output, 1945713348 bytes, 0 output errors
+    0 output queue drops
+    270 broadcasts, 4 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet1 is administratively up, line protocol is down
+  Duplex auto (n/a), Speed auto (n/a), Flow-control disabled (n/a)
+  0 packets input, 0 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  0 packets output, 0 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet2 is administratively up, line protocol is down
+  Duplex auto (n/a), Speed auto (n/a), Flow-control disabled (n/a)
+  0 packets input, 0 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  0 packets output, 0 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet3 is administratively up, line protocol is down
+  Duplex auto (n/a), Speed auto (n/a), Flow-control disabled (n/a)
+  0 packets input, 0 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  0 packets output, 0 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet4 is administratively up, line protocol is up
+  Duplex auto (full), Speed auto (100), Flow-control disabled (disabled)
+  3571107 packets input, 1071970141 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    173975 broadcasts, 80137 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  5717442 packets output, 6774728114 bytes, 0 output errors
+    119039 output queue drops
+    7824 broadcasts, 49268 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+wlan1
+  SSID GNXFFFFFF
+  Authentication WPA-WPA2-Personal, Encryption tkip+aes
+  MAC address 34:e3:80:00:00:00, 0 clients connected
+  Radio enabled, BW(MHz) 40, Channel 2
+
+  2498015 packets input, 798622825 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  5361995 packets output, 2916351706 bytes, 0 output errors
+    2631 output queue drops
+    0 broadcasts, 0 pause
+    626321 collisions, 0 deferred
+
+wlan2
+  SSID GNXFFFFFF
+  Authentication WPA-WPA2-Personal, Encryption tkip+aes
+  MAC address 34:e3:80:00:00:00, 0 clients connected
+  Radio enabled, BW(MHz) 80, Channel 36
+
+  805532 packets input, 107360747 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  3008288 packets output, 3935847322 bytes, 0 output errors
+    2194669568 output queue drops
+    0 broadcasts, 0 pause
+    0 collisions, 0 deferred
+
+

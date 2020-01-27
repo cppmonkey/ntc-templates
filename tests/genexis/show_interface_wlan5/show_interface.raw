@@ -1,0 +1,116 @@
+lan       Link encap:Ethernet  HWaddr 00:0f:5d:00:00:00  
+          inet addr:192.168.1.1  Bcast:192.168.1.255  Mask:255.255.255.0
+          inet6 addr: fe80::20f:5dff:ffff:ffff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:65303081 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4511144 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:494908266 (471.9 MiB)  TX bytes:690655227 (658.6 MiB)
+
+vlan1     Link encap:Ethernet  HWaddr 00:0f:5d:00:00:00  
+          inet addr:192.168.15.212  Bcast:192.168.15.255  Mask:255.255.255.128
+          inet6 addr: fe80::20f:5dff:ffff:ffff/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:97542250 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:4251344 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:1077015252 (1.0 GiB)  TX bytes:496788201 (473.7 MiB)
+
+wan is administratively up, line protocol is up
+  Duplex auto (full), Speed auto (1000), Flow-control disabled (disabled)
+  194888291 packets input, 4091185186 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    93632830 broadcasts, 507952 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  66809469 packets output, 2753350911 bytes, 0 output errors
+    0 output queue drops
+    1018 broadcasts, 60144 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet1 is administratively up, line protocol is down
+  Duplex auto (n/a), Speed auto (n/a), Flow-control disabled (n/a)
+  0 packets input, 0 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  0 packets output, 0 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet2 is administratively up, line protocol is down
+  Duplex auto (n/a), Speed auto (n/a), Flow-control disabled (n/a)
+  0 packets input, 0 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  0 packets output, 0 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet3 is administratively up, line protocol is up
+  Duplex auto (full), Speed auto (100), Flow-control disabled (disabled)
+  4393939 packets input, 1079525375 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    4758 broadcasts, 110 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  5042425 packets output, 1056534188 bytes, 0 output errors
+    0 output queue drops
+    386366 broadcasts, 326886 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+lan/ethernet4 is administratively up, line protocol is down
+  Duplex auto (n/a), Speed auto (n/a), Flow-control disabled (n/a)
+  0 packets input, 0 bytes, 0 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  0 packets output, 0 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+wlan1
+  SSID DRG-FFFF
+  Authentication WPA2-Personal, Encryption aes
+  Mac address 00:0f:5d:00:00:00, 4 clients connected
+  Radio enabled, Channel 1
+
+  70323864 packets input, 2867295714 bytes, 125 input errors
+    0 input queue drops, 0 unknown protocols
+    0 broadcasts, 0 multicasts, 0 pause
+    0 runts, 0 oversized, 0 CRC
+    0 jabbers, 0 fragments, 0 symbol, 0 alignment
+  95344562 packets output, 1579470326 bytes, 0 output errors
+    0 output queue drops
+    0 broadcasts, 0 multicasts, 0 pause
+    0 collisions, 0 deferred
+
+wlan2
+  WLAN interface is administratively down
+
+wlan3
+  WLAN interface is administratively down
+
+wlan4
+  WLAN interface is administratively down
+
+wlan5
+  WLAN device not found
+
+wlan6
+  WLAN device not found
+
+wlan7
+  WLAN device not found
+
+wlan8
+  WLAN device not found
+
+
