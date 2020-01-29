@@ -14,6 +14,7 @@ Start
   ^.*[Uu]ptime\s+is\s+${UPTIME}\s*$$
   ^[Ll]ast\s+boot:\s+${RELOAD_REASON}\s*$$
   # ^Bootloader[\s\d]+version:\s${BOOTLOADER}\s[^\n\r]*$$
+  # ^Bootloader[\s\d]+version:\s([^\s]+)\s[^\n\r]*$$
   ^Bootstrap\s+version:\s${BOOTSTRAP}.*$$
   ^[Pp]roduct\s+[Nn]ame:\s+${HARDWARENAME}\s*$$
   ^[Pp]roduct\s+[Nn]umber:\s+${HARDWARENUM}\s*$$
