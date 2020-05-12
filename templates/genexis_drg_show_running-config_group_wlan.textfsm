@@ -1,0 +1,8 @@
+Value COUNTRY (.+?)
+Value 5G_ALLOWED_CHANNELS (.+?)
+Value 2G_ALLOWED_CHANNELS (.+?)
+
+Start
+  ^wlan\s+country\s${COUNTRY}\s*$$
+  ^wlan\s+5g.*channels\s${5G_ALLOWED_CHANNELS}\s*$$
+  ^wlan\s+2g.*channels\s${2G_ALLOWED_CHANNELS}\s*$$

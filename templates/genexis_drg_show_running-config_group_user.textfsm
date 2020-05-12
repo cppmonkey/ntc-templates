@@ -1,0 +1,12 @@
+Value Required USERNAME (\S+)
+Value Required ACCESS (\S+)
+#Value ACCESS_LEVEL (.+?)
+
+Start
+  ^! version.*$$ -> Users
+  ^!end.*$$
+
+Users
+  ^\S?username\s+${USERNAME}\s+password.*
+  ^\S?username\s+${USERNAME}\s+access\s+${ACCESS}\s* -> Record
+#  ^\S?username\s+${USERNAME}\s+access-level\s+${ACCESS_LEVEL}$$

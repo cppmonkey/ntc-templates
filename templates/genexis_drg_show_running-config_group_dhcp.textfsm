@@ -1,0 +1,18 @@
+Value OS (.+?)
+Value MODEL (.+?)
+Value VERSION (.+?)
+Value RELEASE (.+?)
+Value POOL (.+?)
+Value DOMAIN_NAME (.+?)
+Value ENABLE (enable|disable)
+Value IP_START (\S+)
+Value IP_END (\S+)
+
+Start
+  ^!\s+version\s+${OS}-${MODEL}-${VERSION}-${RELEASE}\s*$$ -> ShowDhcpPool
+
+ShowDhcpPool
+  ^dhcp.*pool\s${POOL}\s*$$
+  ^\s.?pool\s+${ENABLE}\s*$$
+  ^\s.?pool\s+size\s+start\s+${IP_START}\s+end\s+${IP_END}\s*$$
+  ^\s+pool.*domain-name\s${DOMAIN_NAME}\s*$$ -> Record

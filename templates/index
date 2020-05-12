@@ -316,6 +316,10 @@ fortinet_fortios_get_system_status.textfsm, .*, fortinet_fortios, [[g]]et [[s]]y
 
 genexis_drg_show_interface.textfsm, .*, genexis_drg, sh[[ow]] in[[erface]]
 genexis_drg_show_version.textfsm, .*, genexis_drg, sh[[ow]] ve[[rsion]]
+genexis_drg_show_dhcp_server_clients.textfsm, .*, genexis_drg, sh[[ow]] d[[hcp]] s[[erver]] c[[lients]]
+genexis_drg_show_running-config_group_dhcp.textfsm, .*, genexis_drg, sh[[ow]] r[[unning-config]] g[[roup]] d[[hcp]]
+genexis_drg_show_running-config_group_user.textfsm, .*, genexis_drg, sh[[ow]] r[[unning-config]] g[[roup]] us[[er]]
+genexis_drg_show_running-config_group_wlan.textfsm, .*, genexis_drg, sh[[ow]] r[[unning-config]] g[[roup]] w[[lan]]
 
 hp_comware_display_counters_bound_interface.textfsm, .*, hp_comware, di[[splay]] cou[[nters]] (\S+) i[[nterface]]
 hp_comware_display_mac-address.textfsm, .*, hp_comware, di[[splay]] mac-ad[[dress]]
