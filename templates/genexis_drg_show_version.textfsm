@@ -1,4 +1,7 @@
+Value OS (.+?)
+Value MODEL (.+?)
 Value VERSION (.+?)
+Value RELEASE (.+?)
 Value UPTIME (.+)
 Value RELOAD_REASON (.+?)
 # Value BOOTLOADER ([^\s]+)
@@ -10,7 +13,7 @@ Value SERIAL (.+?)
 Value MAC ([0-9a-fA-F]{2}([0-9a-fA-F]{2}){5})
 
 Start
-  ^(GeneOS|DRGOS)\s+version:\s+${VERSION}\s*$$
+  ^(GeneOS|DRGOS)\s+version:\s+${OS}-${MODEL}-${VERSION}-${RELEASE}\s*$$
   ^.*[Uu]ptime\s+is\s+${UPTIME}\s*$$
   ^[Ll]ast\s+boot:\s+${RELOAD_REASON}\s*$$
   # ^Bootloader[\s\d]+version:\s${BOOTLOADER}\s[^\n\r]*$$
