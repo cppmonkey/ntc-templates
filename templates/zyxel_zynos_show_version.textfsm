@@ -1,0 +1,7 @@
+Value NAME (.+?)
+Value VERSION (.+?)
+Value DATE (.+?)
+
+Start
+  ^\s*${NAME}\sZyNOS\s+version\s+:\s+${VERSION}\s+\|\s+${DATE}$$ -> Record
+

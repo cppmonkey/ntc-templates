@@ -364,3 +364,4 @@ vyatta_vyos_show_interfaces.textfsm, .*, .*vyos.*, sh[[ow]] int[[erfaces]]
 vyatta_vyos_show_arp.textfsm, .*, .*vyos.*, sh[[ow]] a[[rp]]
 
 watchguard_firebox_show_arp.textfsm, .*, watchguard_firebox, sh[[ow]] arp
+zyxel_zynos_show_version.textfsm, .*, zyxel_zynos, sh[[ow]] ve[[rsion]]
