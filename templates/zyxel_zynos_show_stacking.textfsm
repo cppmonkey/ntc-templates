@@ -1,0 +1,13 @@
+Value SLOT (\d)
+Value TYPE (.+?)
+Value STATUS (\S+)
+Value MAC (.+?)
+Value ROLE (\S+)
+
+Start
+  ^\s*Slot.*Role\s*$$
+  ^\s*---.*----\s*$$ -> Switches
+
+Switches
+  ^\s*\**${SLOT}\s+${TYPE}\s+${STATUS}\s+${MAC}\s+${ROLE}\s*$$ -> Record
+  ^Stacking\s+Topology:\S+\s*$$ -> End

@@ -1,0 +1,17 @@
+  Slot Id         Type  Status        MAC address    Role  
+  -------  -----------  ------  -----------------  ------  
+       *1  XGS4600-32F  active  bc:99:11:ff:ff:ff  master  
+        2  XGS4600-32F  active  bc:99:11:ff:ff:ff  backup  
+        3            -       -                  -       -  
+        4            -       -                  -       -  
+  
+Stacking Topology:Ring
+  Slot Id   Stacking Channel 1   Stacking Channel 2
+  -------  -------------------  -------------------
+    No.     Neighbor    Speed    Neighbor    Speed   
+  -------  ----------  -------  ----------  -------  
+       *1      slot 2      10G      slot 2      10G  
+        2      slot 1      10G      slot 1      10G  
+        3           -        -           -        -  
+        4           -        -           -        -  
+
