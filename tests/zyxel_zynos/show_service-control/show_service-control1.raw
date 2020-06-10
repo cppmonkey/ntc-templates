@@ -1,0 +1,10 @@
+Services	Active	Service Port	Timeout (minutes)
+Console		Y	-		5
+Telnet		Y	23		5
+SSH		Y	22		5
+FTP		Y	21		5
+HTTP		Y	80		3
+HTTPS		Y	443		3
+ICMP		Y	-		-
+SNMP		Y	161		-
+

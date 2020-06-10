@@ -1,0 +1,8 @@
+Value SERVICE (\S+)
+Value ACTIVE ([NY])
+Value PORT (\d+|-)
+Value TIMEOUT (\d+|-)
+
+Start
+  ^\s*Services.*minutes\)\s*$$
+  ^\s*${SERVICE}\s*${ACTIVE}\s*${PORT}\s*${TIMEOUT}\s*$$ -> Record
