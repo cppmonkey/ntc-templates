@@ -104,6 +104,7 @@ def test_index_ordering():
         "vyatta_vyos",
         "vyos",
         "watchguard_firebox",
+        "zyxel_zynos",
     ]
 
     prior_os = ""
