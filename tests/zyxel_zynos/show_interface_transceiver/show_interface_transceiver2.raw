@@ -1,0 +1,20 @@
+  Transceiver Information
+
+Port		: 21 (SFP)
+Vendor		: ZyXEL
+Part Number	: SFP-LX-10-D
+Serial Number	: S081133000074
+Revision	: V1.0
+Date Code	: 2008-08-11
+Transceiver	: 1000BASE-LX
+
+++ : high alarm, + : high warn, - : low warn, -- : low alarm.
+
+        	       Current  High Alarm   High Warn    Low Warn   Low Alarm
+        	                 Threshold   Threshold   Threshold   Threshold
+--------------- -------------- ----------- ----------- ----------- -----------
+Temperature(C)	++       38.00       -1.00       75.00        5.00        0.00
+Voltage(V)	          3.36        3.50        3.45        3.15        3.10
+TX Bias(mA)	         14.53      100.05       90.04        7.00        6.00
+TX Power(dbm)	         -5.80       -2.99       -3.49       -8.96      -9.50
+RX Power(dbm)	+        -3.36       -2.99       -3.49      -20.50      -21.02

@@ -1,0 +1,15 @@
+---
+parsed_sample:
+  - port: "21"
+    vendor: "ZyXEL"
+    part_num: "SFP-LX-10-D"
+    serial_num: "S081133000074"
+    rev: "V1.0"
+    date_code: "2008-08-11"
+    transceiver: "1000BASE-LX"
+    calibration: ""
+    temperature: "38.00"
+    voltage: "3.36"
+    tx_bias: "14.53"
+    tx_power: "-5.80"
+    rx_power: "-3.36"

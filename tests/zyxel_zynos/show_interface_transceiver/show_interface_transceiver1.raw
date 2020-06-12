@@ -1,0 +1,22 @@
+  Transceiver Information
+
+Port		: 1/1 (SFP)
+Vendor		: Netgear
+Part Number	: SFP-BL5324-20DC
+Serial Number	: F180704T0533
+Revision	:     
+Date Code	: 2018-09-05
+Transceiver	: 1000BASE-LX
+Calibration	: External
+
+++ : high alarm, + : high warn, - : low warn, -- : low alarm.
+neg inf : negative infinity(0mW).
+
+        	       Current  High Alarm   High Warn    Low Warn   Low Alarm
+        	                 Threshold   Threshold   Threshold   Threshold
+--------------- -------------- ----------- ----------- ----------- -----------
+Temperature(C)	         59.00       90.00       85.00        0.00        0.00
+Voltage(V)	          3.00        3.00        3.00        2.00        2.00
+TX Bias(mA)	         35.00      100.00       90.00        0.00        0.00
+TX Power(dbm)	         -6.00       -3.00       -4.00       -9.00      -10.00
+RX Power(dbm)	--     neg inf       -3.00       -4.00      -23.98      -24.95

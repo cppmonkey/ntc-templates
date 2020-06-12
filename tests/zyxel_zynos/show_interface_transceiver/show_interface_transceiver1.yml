@@ -1,0 +1,15 @@
+---
+parsed_sample:
+  - port: "1/1"
+    vendor: "Netgear"
+    part_num: "SFP-BL5324-20DC"
+    serial_num: "F180704T0533"
+    rev: " "
+    date_code: "2018-09-05"
+    transceiver: "1000BASE-LX"
+    calibration: "External"
+    temperature: "59.00"
+    voltage: "3.00"
+    tx_bias: "35.00"
+    tx_power: "-6.00"
+    rx_power: "neg inf"

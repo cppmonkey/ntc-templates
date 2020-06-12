@@ -1,0 +1,31 @@
+Value PORT (.+?)
+Value VENDOR (.+?)
+Value PART_NUM (.+?)
+Value SERIAL_NUM (.+?)
+Value REV (.*?)
+Value DATE_CODE (.+?)
+Value TRANSCEIVER (.+?)
+Value CALIBRATION (.+?)
+Value TEMPERATURE (.+?)
+Value VOLTAGE (.+?)
+Value TX_BIAS (.+?)
+Value TX_POWER (neg\s+inf|.+?)
+Value RX_POWER (neg\s+inf|.+?)
+
+Start
+  ^\s*Transceiver\s+Information\s*$$ -> TransceiverInfo
+
+TransceiverInfo
+  ^\s*Port\s+\:\s+${PORT}\s+.+?\s*$$
+  ^\s*Vendor\s+\:\s+${VENDOR}\s*$$
+  ^\s*Part\s+Number\s+\:\s+${PART_NUM}\s*$$
+  ^\s*Serial\s+Number\s+\:\s+${SERIAL_NUM}\s*$$
+  ^\s*Revision\s+\:\s+${REV}\s*$$
+  ^\s*Date\s+Code\s+\:\s+${DATE_CODE}\s*$$
+  ^\s*Transceiver\s+\:\s+${TRANSCEIVER}\s*$$
+  ^\s*Calibration\s+\:\s+${CALIBRATION}\s*$$
+  ^\s*Temperature\(C\)\s+[\+\-]*\s+${TEMPERATURE}\s+
+  ^\s*Voltage\(V\)\s+[\+\-]*\s+${VOLTAGE}\s+
+  ^\s*TX\s+Bias\(mA\)\s+[\+\-]*\s+${TX_BIAS}\s+
+  ^\s*TX\s+Power\(dbm\)\s+[\+\-]*\s+${TX_POWER}\s+
+  ^\s*RX\s+Power\(dbm\)\s+[\+\-]*\s+${RX_POWER}\s+ -> Record
