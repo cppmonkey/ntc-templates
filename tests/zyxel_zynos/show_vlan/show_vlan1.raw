@@ -1,0 +1,22 @@
+  The Number of VLAN :     6
+  Idx.  VID   Status     Elap-Time    TagCtl                                 
+  ----  ----  ---------  -----------  ---------------------------------------
+  
+     1	 203     Static   1642:10:09  Untagged :
+                                      Tagged   :1/25,1/30,2/30
+  
+     2	 218     Static   1642:10:09  Untagged :1/1-1/25,2/1-2/29
+                                      Tagged   :1/30,2/30
+  
+     3	 228     Static   1642:10:09  Untagged :
+                                      Tagged   :1/30,2/26,2/30
+  
+     4	 242     Static   1642:10:09  Untagged :
+                                      Tagged   :1/29-1/30,2/30
+  
+     5	 519     Static   1642:10:09  Untagged :1/26-1/28
+                                      Tagged   :1/29-1/30,2/30
+  
+     6	 800     Static   1642:10:09  Untagged :
+                                      Tagged   :1/25,1/30
+

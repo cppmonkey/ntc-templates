@@ -1,0 +1,32 @@
+---
+parsed_sample:
+  - vlan_id: 203
+    status: "Static"
+    elapsed_time: "1642:10:09"
+    untagged: ""
+    tagged: "1/25,1/30,2/30"
+  - vlan_id: 218
+    status: "Static"
+    elapsed_time: "1642:10:09"
+    untagged: "1/1-1/25,2/1-2/29"
+    tagged: "1/30,2/30"
+  - vlan_id: 228
+    status: "Static"
+    elapsed_time: "1642:10:09"
+    untagged: ""
+    tagged: "1/30,2/26,2/30"
+  - vlan_id: 242
+    status: "Static"
+    elapsed_time: "1642:10:09"
+    untagged: ""
+    tagged: "1/29-1/30,2/30"
+  - vlan_id: 519
+    status: "Static"
+    elapsed_time: "1642:10:09"
+    untagged: "1/26-1/28"
+    tagged: "1/29-1/30,2/30"
+  - vlan_id: 800
+    status: "Static"
+    elapsed_time: "1642:10:09"
+    untagged: ""
+    tagged: "1/25,1/30"
