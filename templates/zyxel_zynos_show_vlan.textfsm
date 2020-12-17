@@ -1,0 +1,14 @@
+Value VLAN_ID
+Value STATUS
+Value ELAPSED_TIME
+Value UNTAGGED
+Value TAGGED
+
+Start
+  ^\s*The\s+Number\s+of\s+VLAN\s+\:\s+\d+\s*$$
+  ^\s*Idx\..*TagCtl\s*$$ -> Vlans
+
+Vlans
+  ^\s*(\d)\s+(\d+)\s+(\S+)\s+(.+?)\s+Untagged\s+\:(.*?)\s*$$
+  ^\s+Tagged\s+\:(.*?)\s*$$ -> Record
+

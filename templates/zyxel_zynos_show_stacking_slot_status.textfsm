@@ -1,0 +1,17 @@
+Value SLOT (\d)
+Value NAME (.+?)
+Value STATUS (\S+)
+Value UP_TIME (.+?)
+Value RUNNING (V.+?)
+Value FLASH1 (V.+?)
+Value FLASH2 (V.+?)
+
+Start
+  ^\s+Slot.*Flash2\)\s*$$
+  ^\s*----.*----\s*$$ -> Switch
+
+Switch
+  ^\s+\**${SLOT}\s+${NAME}\s+${STATUS}\s+${UP_TIME}\s+${RUNNING}\s+$$ -> Record
+  ## TODO Collect FLASH1 and FLASH2 Values
+  # ${FLASH1}\s+${FLASH2}\s+$$ -> Record
+

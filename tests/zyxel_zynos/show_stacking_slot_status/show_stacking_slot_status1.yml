@@ -1,0 +1,30 @@
+---
+parsed_sample:
+  - slot: 1
+    name: "XGS4600-32F"
+    status: "active"
+    up_time: "1640:42:44"
+    running: "V4.60(ABBI.0)"
+    flash1: "V4.60(ABBI.0)"
+    flash2: "V4.50(ABBI.1)"
+  - slot: 2
+    name: "XGS4600-32F"
+    status: "active"
+    up_time: "1640:43:22"
+    running: "V4.60(ABBI.0)"
+    flash1: "V4.60(ABBI.0)"
+    flash2: "V4.50(ABBI.1)"
+  - slot: 3
+    name: ""
+    status: "inactive"
+    up_time: ""
+    running: ""
+    flash1: ""
+    flash2: ""
+  - slot: 4
+    name: ""
+    status: "inactive"
+    up_time: ""
+    running: ""
+    flash1: ""
+    flash2: ""

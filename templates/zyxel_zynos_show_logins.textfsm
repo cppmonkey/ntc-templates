@@ -1,0 +1,7 @@
+Value LOGIN (\d)
+Value USERNAME (\S+)
+Value PRIVILEGE (\d+)
+
+Start
+  ^\s*Login.*Privilege\s*$$
+  ^\s*${LOGIN}\s+${USERNAME}\s*${PRIVILEGE}\s*$$ -> Record
