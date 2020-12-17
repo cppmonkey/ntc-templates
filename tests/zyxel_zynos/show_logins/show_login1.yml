@@ -1,0 +1,5 @@
+---
+parsed_sample:
+  - login: "1"
+    username: "test"
+    privilege: "3"
